@@ -1,0 +1,11 @@
+numpy>=1.20
+matplotlib>=3.5
+scipy>=1.7          # only needed for validate.py
+# Optional (makes the exciton loop ~10× faster):
+# numba>=0.55
+
+# tkinter is part of the standard library.
+# On Debian/Ubuntu/Linux Mint:   sudo apt install python3-tk
+# On Fedora:                     sudo dnf install python3-tkinter
+# On macOS (Homebrew Python):    already included
+# On Windows:                    already included with official Python installer
